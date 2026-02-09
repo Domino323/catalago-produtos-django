@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Detalhe Produto</title>
+</head>
+<body>
+
+<h1>Detalhe</h1>
+
+<p><strong>Nome:</strong> {{ produto.nome }}</p>
+<p><strong>Preço:</strong> R$ {{ produto.preco }}</p>
+<p><strong>Criado em:</strong> {{ produto.criado_em }}</p>
+
+<p><a href="{% url 'catalogo:lista' %}">Voltar</a></p>
+
+</body>
+</html>
